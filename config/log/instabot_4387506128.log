@@ -1,0 +1,19 @@
+2023-07-30 13:51:13,453 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2023-07-30 13:51:13,453 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from /Users/khushiashta/anaconda3/lib/python3.11/site-packages/instabot/bot/bot.py
+2023-07-30 13:51:13,453 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2023-07-30 13:51:13,952 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [429]>
+2023-07-30 13:51:13,953 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2023-07-30 13:51:13,953 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2023-07-30 13:51:13,953 - instabot version: 0.117.0 (api) - WARNING - That means 'too many requests'. I'll go to sleep for 5 minutes.
+2023-07-30 13:56:14,408 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [429]>
+2023-07-30 13:56:14,408 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2023-07-30 13:56:14,408 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2023-07-30 13:56:14,409 - instabot version: 0.117.0 (api) - WARNING - That means 'too many requests'. I'll go to sleep for 10 minutes.
+2023-07-30 14:06:14,865 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [429]>
+2023-07-30 14:06:14,866 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2023-07-30 14:06:14,867 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2023-07-30 14:06:14,867 - instabot version: 0.117.0 (api) - WARNING - That means 'too many requests'. I'll go to sleep for 15 minutes.
+2023-07-30 14:21:15,352 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [429]>
+2023-07-30 14:21:15,352 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2023-07-30 14:21:15,352 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2023-07-30 14:21:16,356 - instabot version: 0.117.0 (api) - ERROR - Since we hit 15 minutes of time outs, we have to restart. Removing session and cookies. Please relogin.
